@@ -12,6 +12,8 @@
 
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 
 	<title>Varun Patil</title>
 
@@ -22,8 +24,26 @@
 			overflow-y: scroll;
 			height: 100%; width: 100vw;
 		}
+
+		* {
+			scrollbar-color: black;
+			scrollbar-width: thin;
+		}
+
+		::-webkit-scrollbar {
+			width: 4px;
+		}
+ 
+		::-webkit-scrollbar-track {
+			background-color: white;
+		}
+ 
+		::-webkit-scrollbar-thumb {
+			background-color: black;
+		}
+
 		body {
-			font-family: sans-serif;
+			font-family: 'Noto Sans', sans-serif;
 			background-image: url('./backdrop.jpg');
 		    background-repeat: no-repeat;
 			background-attachment: fixed;
@@ -78,7 +98,7 @@
 			position: absolute;
 			height: 100%; width: 100%;
 			background-color: white;
-			opacity: 0.95;
+			opacity: 0.70;
 		}
 		.main {
 			position: relative;
