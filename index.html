@@ -145,6 +145,10 @@
 			text-decoration-style: dotted;
 		}
 
+		.repos a {
+			vertical-align: middle;
+		}
+
 		@media (max-width: 800px) {
 			.card .photo {
 				height: 220px;
@@ -177,7 +181,7 @@
 			<div class="white">
 			</div>
 			<div class="main">
-				<a href="javascript:go('home')" class="close">&times;</a>
+				<a href="#" class="close">&times;</a>
 				<h1>About Me</h1>
 				<p>
 					Hi there! I am Varun Patil, Computer Science Ph.D. Candidate at UCLA.
@@ -219,10 +223,10 @@
 		</div>
 
 		<div class="about-me" id="contact">
-		<div class="white">
+			<div class="white">
 			</div>
 			<div class="main">
-				<a href="javascript:go('home')" class="close">&times;</a>
+				<a href="#" class="close">&times;</a>
 				<h1>Get in touch</h1>
 				You can reach me at
 				<p style="padding-left: 20px;">
@@ -251,6 +255,43 @@
 			</div>
 		</div>
 
+		<div class="about-me" id="showcase">
+			<div class="white">
+			</div>
+			<div class="main">
+				<a href="#" class="close">&times;</a>
+				<h1>Showcase</h1>
+				I have / work on a bunch of open source projects, some of my favorites below.
+
+				<p class="repos">
+					<a href="https://github.com/pulsejet/memories">
+						<img alt="Memories" src="https://github-readme-stats.vercel.app/api/pin/?username=pulsejet&repo=memories" />
+					</a>
+					<a href="https://github.com/named-data/ndn-svs">
+						<img alt="NDN SVS" src="https://github-readme-stats.vercel.app/api/pin/?username=named-data&repo=ndn-svs" />
+					</a>
+					<a href="https://github.com/pulsejet/ndn-play">
+						<img alt="NDN Play" src="https://github-readme-stats.vercel.app/api/pin/?username=pulsejet&repo=ndn-play" />
+					</a>
+					<a href="https://github.com/DevCom-IITB/instiapp-api">
+						<img alt="InstiApp API" src="https://github-readme-stats.vercel.app/api/pin/?username=DevCom-IITB&repo=instiapp-api" />
+					</a>
+					<a href="https://github.com/pulsejet/geoipns">
+						<img alt="GeoIPNS" src="https://github-readme-stats.vercel.app/api/pin/?username=pulsejet&repo=geoipns" />
+					</a>
+					<a href="https://github.com/pulsejet/cerium">
+						<img alt="Cerium" src="https://github-readme-stats.vercel.app/api/pin/?username=pulsejet&repo=cerium" />
+					</a>
+				</p>
+
+				<p>
+					<a href="https://github.com/pulsejet">
+						<img alt="Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pulsejet&layout=compact&hide=jupyter%20notebook,HTML,CSS,tex&langs_count=10&exclude_repo=cs259-mp1&custom_title=Personal%20Projects%20(GitHub)" />
+					</a>
+				</p>
+			</div>
+		</div>
+
 		<div class="card" id="home">
 			<div class="white">
 			</div>
@@ -269,19 +310,19 @@
 
 					<div class="i-am">
 						<div>
-							<a href="javascript:go('me')">
+							<a href="#me">
 								<span class="is">Student</span>
 								<span class="means">About Me</span>
 							</a>
 						</div>
 						<div>
-							<a href="varun_resume.pdf" target="_blank">
+							<a href="#showcase">
 								<span class="is">Developer</span>
 								<span class="means">Resume</span>
 							</a>
 						</div>
 						<div style="margin-right: 0">
-							<a href="javascript:go('contact')">
+							<a href="#contact">
 								<span class="is">Foodie</span>
 								<span class="means">Coffee</span>
 							</a>
@@ -298,6 +339,21 @@
 		const active = document.querySelector('.active');
 		if (active) active.classList.remove('active');
 		document.getElementById(section).classList.add('active');
+
+		if (section === 'showcase') {
+			setTimeout(() => {
+				const url = "varun_resume.pdf";
+				window.open(url, '_blank');
+			}, 500);
+		}
 	}
+
+	function hashchange() {
+		go(window.location.hash.slice(1) || 'home');
+	}
+
+	// Listen to changes in URL hash and update the active section
+	window.addEventListener('hashchange', hashchange);
+	hashchange();
 </script>
 </html>
