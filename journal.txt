@@ -1,0 +1,35 @@
+2024/05/18 - We deployed the next generation of the global NDN testbed with Docker.
+2024/03/09 - We presented our hack "SVS Performance Optimizations" at the 16th NDN Hackathon at NIST, MD.
+2024/03/06 - Gave a talk on the NDN testbed at the NDNComm 2024.
+2023/11/25 - Our paper "Hydra: A Scalable Decentralized P2P Storage Federation for Large Scientific Datasets" was accepted at ICNC'24 NGNI.
+2023/11/18 - We presented our hack "Testbed-in-a-box" at the 15th NDN Hackathon at UCLA.
+2023/10/09 - Presented two posters at the ACM ICN 2023 conference in Reykjavik.
+2023/10/02 - Re-joined Operant Networks as a part-time C++ software engineer.
+2023/09/18 - Gave a talk "Building High Performance Nextcloud apps: Lessons Learnt from Memories" at the Nextcloud Conference 2023 in Berlin.
+2023/08/23 - Our poster "Timers in State Vector Sync" was accepted at ACM ICN 2023.
+2023/08/23 - Our poster "Decentralized Photo Sharing via Named Data Networking" was accepted at ACM ICN 2023.
+2023/08/01 - Published TR NDN-0077 "Lessons Learned from Fixing the Dead Nonce List in NFD"
+2023/06/21 - Joined Operant Networks for a summer internship on security.
+2023/05/02 - Gave a talk on Sync API overview at the NDNComm 2023.
+2023/03/04 - We presented our hack "NDN 101" at the 14th NDN Hackathon at NIST, MD.
+2023/01/19 - Our paper "CLedger: A Secure Distributed Certificate Ledger via Named Data" was accepted at IEEE ICC 2023.
+2022/09/21 - Presented two papers and a poster at ACM ICN 2022.
+2022/09/20 - Gave a tutorial on using MiniNDN with NDN-Play at the ACM ICN 2022 conference in Osaka.
+2022/08/24 - Our poster "Scaling State Vector Sync" was accepted at ACM ICN 2022.
+2022/08/06 - Our paper "Kua: A Distributed Object Store over Named Data Networking" was accepted at ACM ICN 2022.
+2022/08/06 - Our paper "SoK: The Evolution of Distributed Dataset Synchronization Solutions in NDN" was accepted at ACM ICN 2022.
+2022/06/13 - Joined LabN Consulting LLC for a summer internship.
+2022/03/27 - We presented our hack "Profiling YaNFD" at the 13th NDN Hackathon in Memphis.
+2021/11/29 - Presented our paper on SVS-PS at MILCOM in San Diego.
+2021/10/29 - Gave a talk on Sync APIs at the NDNComm 2021.
+2021/10/21 - Our paper "Designing Hydra with Centralized versus Decentralized Control: A Comparative Study" was accepted at ACM CoNEXT 2021
+2021/10/02 - Our paper "Resilient Brokerless Publish-Subscribe Over NDN" was accepted at IEEE MILCOM 2021.
+2021/08/18 - Our poster "Supporting Pub/Sub over NDN Sync" was accepted at ACM ICN 2021.
+2021/05/23 - Our project "NDN-Play" received the "Most Promising Hack" award at the 11th NDN Hackathon
+2021/05/01 - Published TR NDN-0073 "A Brief Introduction to State Vector Sync".
+2021/01/20 - Joined the Internet Research Laboratory at UCLA.
+2020/08/28 - Awarded the *Institute Technical Roll of Honour* for the academic year 2020-21.
+2020/08/23 - Graduated from IITB with a Bachelor's in ME and a minor in CS.
+2020/07/08 - AMS was approved for interim usage at IITB during the COVID-19 lockdown.
+2020/07/01 - SSO was deployed at IITB after a year of development.
+2020/03/04 - Accepted the admissions offer for the MS CS program at UCLA.
