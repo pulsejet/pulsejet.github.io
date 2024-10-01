@@ -1,3 +1,4 @@
+2024/06/24 - Joined Meta Platforms for a summer internship in WhatsApp Server Privacy
 2024/05/18 - We deployed the next generation of the global NDN testbed with Docker.
 2024/03/09 - We presented our hack "SVS Performance Optimizations" at the 16th NDN Hackathon at NIST, MD.
 2024/03/06 - Gave a talk on the NDN testbed at the NDNComm 2024.
