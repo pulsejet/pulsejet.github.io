@@ -1,11 +1,16 @@
+2025/04/17 - Gave three talks "The design of Ownly", "Named Data Networking Daemon" and "NDN Distance-Vector Routing" at NDNComm 2025.
+2025/04/17 - Panelist for "What does it take to build decentralized apps?" at NDNComm 2025.
+2024/10/02 - Our poster "Distance Vector Routing for Named Data Networking" was accepted at ACM CoNEXT'24.
 2024/06/24 - Joined Meta Platforms for a summer internship in WhatsApp Server Privacy
+2024/06/23 - Our paper "Exploring the Design of Collaborative Applications via the Lens of NDN Workspace" was accepted at IEEE MetaCom 2024.
+2024/06/23 - Our paper "Secure Web Objects: Building Blocks for Metaverse Interoperability and Decentralization" was accepted at IEEE MetaCom 2024.
 2024/05/18 - We deployed the next generation of the global NDN testbed with Docker.
 2024/03/09 - We presented our hack "SVS Performance Optimizations" at the 16th NDN Hackathon at NIST, MD.
 2024/03/06 - Gave a talk on the NDN testbed at the NDNComm 2024.
 2023/11/25 - Our paper "Hydra: A Scalable Decentralized P2P Storage Federation for Large Scientific Datasets" was accepted at ICNC'24 NGNI.
 2023/11/18 - We presented our hack "Testbed-in-a-box" at the 15th NDN Hackathon at UCLA.
 2023/10/09 - Presented two posters at the ACM ICN 2023 conference in Reykjavik.
-2023/10/02 - Re-joined Operant Networks as a part-time C++ software engineer.
+2023/10/02 - Joined Operant Networks as a C++ software engineer.
 2023/09/18 - Gave a talk "Building High Performance Nextcloud apps: Lessons Learnt from Memories" at the Nextcloud Conference 2023 in Berlin.
 2023/08/23 - Our poster "Timers in State Vector Sync" was accepted at ACM ICN 2023.
 2023/08/23 - Our poster "Decentralized Photo Sharing via Named Data Networking" was accepted at ACM ICN 2023.
@@ -29,7 +34,7 @@
 2021/05/23 - Our project "NDN-Play" received the "Most Promising Hack" award at the 11th NDN Hackathon
 2021/05/01 - Published TR NDN-0073 "A Brief Introduction to State Vector Sync".
 2021/01/20 - Joined the Internet Research Laboratory at UCLA.
-2020/08/28 - Awarded the *Institute Technical Roll of Honour* for the academic year 2020-21.
+2020/08/28 - Awarded the "Institute Technical Roll of Honour" for the academic year 2020-21.
 2020/08/23 - Graduated from IITB with a Bachelor's in ME and a minor in CS.
 2020/07/08 - AMS was approved for interim usage at IITB during the COVID-19 lockdown.
 2020/07/01 - SSO was deployed at IITB after a year of development.
