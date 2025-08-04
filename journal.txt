@@ -1,3 +1,6 @@
+2025/06/23 - Joined Meta Platforms as a Research Scientist on the WhatsApp Server Privacy team.
+2025/06/15 - Graduated from UCLA with my PhD in Computer Science.
+2025/05/26 - I successfully defended my doctoral dissertation titled "Enabling Decentralized Applications: A Transport Perspective".
 2025/04/17 - Gave three talks "The design of Ownly", "Named Data Networking Daemon" and "NDN Distance-Vector Routing" at NDNComm 2025.
 2025/04/17 - Panelist for "What does it take to build decentralized apps?" at NDNComm 2025.
 2024/10/02 - Our poster "Distance Vector Routing for Named Data Networking" was accepted at ACM CoNEXT'24.
